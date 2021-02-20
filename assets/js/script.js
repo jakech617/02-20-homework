@@ -186,7 +186,7 @@ function quizComplete() {
             var newScore = JSON.stringify(allScores);
             localStorage.setItem("allScores", newScore);
             // navigates to final page.
-            window.location.replace("./HighScores.html");
+            window.location.replace(".highscores.html");
         }
     });
 
